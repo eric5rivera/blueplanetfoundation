@@ -1,0 +1,15 @@
+
+.ui.borderless.menu {
+  color: green;
+  background-color: #ffffff;
+  box-shadow: none;
+  border: none;
+
+  padding-right: 32px;
+  font-family: "Roboto Light", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.text {
+  color: #383838;
+}
+
