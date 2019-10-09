@@ -1,15 +1,36 @@
 
 .ui.borderless.menu {
-  color: green;
   background-color: #ffffff;
   box-shadow: none;
   border: none;
 
   padding-right: 32px;
-  font-family: "Roboto Light", "Helvetica Neue", Helvetica, sans-serif;
+
+  color: black;
 }
 
 .text {
-  color: #383838;
+  font-family: "Lato:Thin", "Helvetica Neue", Helvetica, sans-serif;
+  color: darkgray;
 }
 
+h1 {
+  font-family: "Lato:Thin";
+}
+.centered {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
